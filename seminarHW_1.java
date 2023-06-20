@@ -14,10 +14,10 @@ public class seminarHW_1 {
     public static void main(String[] args) {
         Random random = new Random();
         int i = random.nextInt(2000);
-        System.out.println("Случайное число i =  " + i);
+        System.out.println("Случайное целое число i =  " + i);
 
         int n = Integer.toBinaryString(i).length()-1;
-        System.out.println("Номер старшего значения бита n =  "+n);
+        System.out.println("Номер старшего значащего бита n =  "+n);
        
               
         short count = 0;
